@@ -1,6 +1,6 @@
 {
   "name": "@ejiroghene/forms",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "utility of Forms and Inputs ",
   "main": "src/index.ts",
   "types": "lib/index.d.ts",
