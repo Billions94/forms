@@ -10,13 +10,20 @@
   "scripts": {
     "prepublish": "tsc"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Billions94/forms.git"
+  },
   "keywords": [
     "typescript",
     "ejiro",
     "forms",
-    "typescript utility functions"
+    "typescript form utility functions"
   ],
   "author": "ejiroghene",
   "license": "ISC",
-  "homepage": ""
+  "homepage": "https://github.com/Billions94/forms",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
 }
