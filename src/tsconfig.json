@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es5",                       
+    "module": "esnext",                     
+    "lib": ["es5",
+      "dom",
+      "ES2017",
+      "es2015.collection"],                             
+    "declaration": true,                   
+    "declarationMap": true,                
+    "sourceMap": true,                     
+    "outDir": "lib",                        
+    "strict": false,                       
+    "moduleResolution": "node",         
+    "esModuleInterop": true,                 
+    "forceConsistentCasingInFileNames": true, 
+  },
+  "typeRoots": [
+    "index.d.ts",
+    "node_modules/@types"
+  ],
+  "include": [
+    "src/**/*.ts",
+  ],
+  "exclude": [
+    "node_modules",
+    "lib"
+  ]
+}
+
